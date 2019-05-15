@@ -5,16 +5,7 @@ _forked from https://github.com/ahmetb/dotfiles_
 
 > TODO: find `defaults write` commands for these.
 
-- Remove useless items from the Dock.
-- Drag `Downloads` folder next to the Trash on the Dock.
-  - Right Click &rarr; Sort by Date Added.
 - Move $HOME folder to Finder sidebar.
-
-- Set shortcuts
-  - Accessibility: Invert colors: Cmd+Shift+I
-  - Screenshots: Save selected area to file: Cmd+Shift+4
-  - Screenshots: Save selected area to clipboard: Cmd+Shift+3
-  - Screenshots: Uncheck others
 
 Tweaks:
 
