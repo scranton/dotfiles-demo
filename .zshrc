@@ -17,15 +17,15 @@
 	# COMPLETION_WAITING_DOTS="true"
 
 # Load custom functions
-if [[ -f "$HOME/workspace/dotfiles/zsh_functions.inc" ]]; then
-	source "$HOME/workspace/dotfiles/zsh_functions.inc"
+if [[ -f "$HOME/workspace/dotfiles-demo/zsh_functions.inc" ]]; then
+	source "$HOME/workspace/dotfiles-demo/zsh_functions.inc"
 else
 	echo >&2 "WARNING: can't load shell functions"
 fi
 
 # Load custom aliases
-if [[ -f "$HOME/workspace/dotfiles/zsh_aliases.inc" ]]; then
-	source "$HOME/workspace/dotfiles/zsh_aliases.inc"
+if [[ -f "$HOME/workspace/dotfiles-demo/zsh_aliases.inc" ]]; then
+	source "$HOME/workspace/dotfiles-demo/zsh_aliases.inc"
 else
 	echo >&2 "WARNING: can't load shell aliases"
 fi
@@ -124,8 +124,8 @@ if [[ -f "$HOMEBREW/opt/kube-ps1/share/kube-ps1.sh" ]]; then
 fi
 
 # add dotfiles/bin to PATH
-if [[ -d "/Users/$USER/workspace/dotfiles/bin" ]]; then
-	PATH="/Users/$USER/workspace/dotfiles/bin:${PATH}"
+if [[ -d "/Users/$USER/workspace/dotfiles-demo/bin" ]]; then
+	PATH="/Users/$USER/workspace/dotfiles-demo/bin:${PATH}"
 fi
 
 # load zsh plugins installed via brew
